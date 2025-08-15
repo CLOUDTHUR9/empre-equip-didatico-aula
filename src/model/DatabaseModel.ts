@@ -55,7 +55,6 @@ export class DatabaseModel {
             // Tenta conectar ao banco de dados
             await this._client.connect();
             console.clear();
-            // Se a conexão for bem-sucedida, exibe uma mensagem de sucesso
             console.log('Database connected!');
             // Encerra a conexão
             this._client.end();
@@ -77,4 +76,3 @@ export class DatabaseModel {
         return this._pool;
     }
 }
-

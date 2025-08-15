@@ -3,6 +3,7 @@ const SERVER_ROUTES = {
         NOVO_USUARIO: '/novo/usuario',
         REMOVER_USUARIO: '/remove/usuario',
         ATUALIZAR_USUARIO: '/atualiza/usuario',
+        UNICO_USUARIO: '/lista/usuarioUnico',
 
         LISTAR_EQUIPAMENTOS: '/lista/equipamentos',
         NOVO_EQUIPAMENTO: '/novo/equipamento',

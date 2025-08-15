@@ -13,6 +13,7 @@ router.get('/', (req, res) => {
 router.get(SERVER_ROUTES.LISTAR_USUARIOS, UsuarioController.todos);
 router.get(SERVER_ROUTES.LISTAR_EQUIPAMENTOS, EquipamentoController.todos);
 router.get(SERVER_ROUTES.LISTAR_EMPRESTIMOS, EmprestimoController.todos);
+router.get(SERVER_ROUTES.UNICO_USUARIO, UsuarioController.unico);
 
 router.post(SERVER_ROUTES.NOVO_USUARIO, UsuarioController.cadastrar);
 
